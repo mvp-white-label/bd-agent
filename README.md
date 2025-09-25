@@ -63,8 +63,8 @@ Create a `.env.local` file in the root directory:
 # Microsoft Azure AD Configuration
 NEXT_PUBLIC_AZURE_CLIENT_ID=your_azure_client_id_here
 AZURE_CLIENT_SECRET=your_azure_client_secret_here
-AZURE_TENANT_ID=your_azure_tenant_id_here
-NEXT_PUBLIC_AZURE_REDIRECT_URI=http://localhost:3000/api/auth/callback
+NEXT_PUBLIC_AZURE_TENANT_ID=your_azure_tenant_id_here
+NEXT_PUBLIC_AZURE_REDIRECT_URI=http://localhost:3000
 
 # Supabase Configuration
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url_here
